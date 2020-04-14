@@ -1,0 +1,70 @@
+.registration-form, .login-form
+{
+    margin: 50px auto;
+    padding: 80px 150px;
+    border-radius: 5px;
+    border: 3px solid #555;
+}
+
+.registration-form ul li
+{
+    list-style-type: none;
+    color: #dc3545;
+}
+
+.registration-form ul
+{
+    padding-inline-start: 0;
+    margin-top: 10px;
+}
+
+.registration-form-header, .login-form-header
+{
+    font-size: 30px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+.register-button, .login-button
+{
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.registration-form-info a, .login-form-info a, .user-account-header .logout a
+{
+    text-decoration: none;
+}
+
+.user-account-header .logout
+{
+    float: right;
+}
+
+.messages, .loader, .user-account-header
+{
+    margin-top: 40px;
+}
+
+.user-account-header
+{
+    font-size: 20px;
+}
+
+.user-account-header .user-welcome
+{
+    font-weight: 500;
+}
+
+.loader, #users, #users table thead th, #users table tbody td
+{
+    text-align: center;
+}
+
+#users
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
